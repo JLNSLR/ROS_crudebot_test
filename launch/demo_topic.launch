@@ -1,0 +1,7 @@
+<launch> 
+	<node name="publisher_node" pkg="crudebot_test_pkg"
+	type="demo_topic_publisher" output="screen"/>
+	
+	<node name="subscriber_node" pkg="crudebot_test_pkg"
+	type = "demo_topic_subscriber" output="screen"/>
+</launch>
